@@ -40,7 +40,7 @@ public class UFTDeveloperTest extends UnitTestClassBase {
         
         //BrowserDescription bd = new BrowserDescription();
         // changed from Chrome to Edge 
-        BrowserType chrome = BrowserType.EDGE;
+        BrowserType chrome = BrowserType.CHROME; //EDGE;
 
         browser = BrowserFactory.launch(chrome);
          try
